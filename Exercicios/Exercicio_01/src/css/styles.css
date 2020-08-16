@@ -1,0 +1,33 @@
+body {
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    text-align: justify;
+}
+#cursos {
+    font-size: 2em;
+    color: #0000ff;
+}
+
+#first {
+    font-size: 2em;
+    font-weight: bold;
+    color: #FFA500;
+}
+#second {
+    font-size: 2em;
+    font-style: italic;
+    color: #008000;
+}
+#third {
+    font-size: 2em;
+    text-decoration: underline;
+    color: #ff0000;
+}
+pre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    color: #ff00ff;
+}
