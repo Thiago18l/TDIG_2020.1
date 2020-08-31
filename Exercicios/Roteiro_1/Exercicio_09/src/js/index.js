@@ -19,7 +19,7 @@ const media = function () {
     mediadiv.innerHTML = `A média aritmética dos valores é: ${valor.toFixed(2)}`
     positive.innerHTML = `Quantidade de elementos positivos = ${positives}`
     negative.innerHTML = `Quantidade de elementos negativos = ${negatives}`
-    percent.innerHTML = `Percentual de valores positivos: ${percentual[1].toFixed(1)}%, negativos: ${percentual[0].tof}%`
+    percent.innerHTML = `Percentual de valores positivos: ${percentual[1].toFixed(1)}%, negativos: ${percentual[0].toFixed(1)}%`
 
 }
 const percentFun = (length, positivo, negativo) => {
