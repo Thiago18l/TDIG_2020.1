@@ -31,7 +31,7 @@ async function ordenarPalavras(array) {
         setTimeout(() => {
             array.forEach(element => {
                 if (typeof element === "number") {
-                    reject(new Error(`FUDEU TEM UM NÚMERO`))  
+                    reject(new Error(`FUDEU TEM NÚMERO NO ARRAY!`))  
                 }
             });
             resolve(array.sort())
