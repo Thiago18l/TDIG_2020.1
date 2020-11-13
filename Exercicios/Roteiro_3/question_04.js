@@ -11,7 +11,7 @@ Atenção: você deverá utilizar encadeamento de funções.
 */
 
 
-const array = ['javascript', 'java', 'dart', 'python', 1]
+const array = ['javascript', 'java', 'dart', 'python']
 const array2 = ['joazin', 'mariabarriguda', 'jhonlennon', 10]
 
 
@@ -43,7 +43,7 @@ function ordenarPalavras(array) {
         setTimeout(() => {
             array.forEach(element => {
                 if (typeof element === "number") {
-                    reject(new Error(`FUDEU TEM UM NÚMERO NA POSIÇÃO `))  
+                    reject(new Error(`FUDEU, TEM ESSE NÚMERO AQUI NO ARRAY: ${element}`))  
                 }
             });
             resolve(array.sort())
@@ -54,6 +54,6 @@ function ordenarPalavras(array) {
 
 
 
-colocarTodasPalavrasEmMaiusculo(array2).then(console.log).catch(console.error)
-ordenarPalavras(array).then(console.log).catch(console.error)
+colocarTodasPalavrasEmMaiusculo(array).then(console.log).catch(console.error)
+ordenarPalavras(array2).then(console.log).catch(console.error)
 
